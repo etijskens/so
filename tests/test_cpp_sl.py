@@ -15,6 +15,7 @@ cpp = so.sl
 
 
 def test_cpp_prod():
+    # if this test succeeds the shared lib shrd is correctly linked and used
     a=2.0;
     b=3.0
     c = cpp.prod(a,b)

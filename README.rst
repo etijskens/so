@@ -4,7 +4,7 @@ so
 
 Use micc to create a python module from c++ that uses another shared library
 
-look at so/cpp_sl/CMakeLists.txt to see how that works.
+look at so/cpp_sl/CMakeLists.txt to see how that works. The tests run fine.
 Note that::
 
     > ldd sl.cpython-38-x86_64-linux-gnu.so
